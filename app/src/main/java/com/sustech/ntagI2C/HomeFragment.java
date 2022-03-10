@@ -54,12 +54,12 @@ public class HomeFragment extends Fragment {
         vdrv = view.findViewById(R.id.vdrv);
         chn = view.findViewById(R.id.chn);
         resis = view.findViewById(R.id.resis);
-        button_LED = view.findViewById(R.id.led);
+        button_LED = view.findViewById(R.id.t2);
         button_LED.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(LED==0){LED=1;button_LED.setText("Close");}
-                else{LED=0;button_LED.setText("Open");}
+                if(LED==0){LED=1;button_LED.setText("Close IR");}
+                else{LED=0;button_LED.setText("Open IR");}
             }
         });
     }
