@@ -1,0 +1,141 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+    android:background="@color/white"
+  >
+
+  <TextView
+      android:id="@+id/resis"
+      android:layout_width="164dp"
+      android:layout_height="57dp"
+      android:text="0"
+      android:textColor="@color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.417"
+      app:layout_constraintStart_toEndOf="@+id/t1"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.335" />
+
+  <TextView
+      android:id="@+id/chn"
+      android:layout_width="167dp"
+      android:layout_height="30dp"
+      android:text="0"
+      android:textColor="@color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.428"
+      app:layout_constraintStart_toEndOf="@+id/t1"
+      app:layout_constraintTop_toBottomOf="@+id/vdrv"
+      app:layout_constraintVertical_bias="0.059" />
+
+  <TextView
+      android:id="@+id/vdrv"
+      android:layout_width="167dp"
+      android:layout_height="30dp"
+      android:text="0"
+      android:textColor="@color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.428"
+      app:layout_constraintStart_toEndOf="@+id/t1"
+      app:layout_constraintTop_toBottomOf="@+id/vsource"
+      app:layout_constraintVertical_bias="0.05" />
+
+  <TextView
+      android:id="@+id/t3"
+      android:layout_width="116dp"
+      android:layout_height="30dp"
+      android:background="@drawable/text_round"
+      android:gravity="center"
+      android:minWidth="40dp"
+      android:text="TemperatureDif"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.054"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/t2"
+      app:layout_constraintVertical_bias="0.066" />
+
+  <TextView
+      android:id="@+id/t2"
+      android:layout_width="116dp"
+      android:layout_height="30dp"
+      android:background="@drawable/text_round"
+      android:gravity="center"
+      android:minWidth="40dp"
+      android:text="SensorChn"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.054"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/t"
+      app:layout_constraintVertical_bias="0.057" />
+
+  <TextView
+      android:id="@+id/t"
+      android:layout_width="116dp"
+      android:layout_height="30dp"
+      android:background="@drawable/text_round"
+      android:gravity="center"
+      android:minWidth="40dp"
+      android:text="sensor2"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.054"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/t1"
+      app:layout_constraintVertical_bias="0.052" />
+
+  <TextView
+      android:id="@+id/t1"
+      android:layout_width="116dp"
+      android:layout_height="30dp"
+      android:background="@drawable/text_round"
+      android:gravity="center"
+      android:minWidth="40dp"
+      android:text="sensor1"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.054"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.052" />
+
+  <TextView
+      android:id="@+id/vsource"
+      android:layout_width="167dp"
+      android:layout_height="30dp"
+      android:text="0"
+      android:textColor="@color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.428"
+      app:layout_constraintStart_toEndOf="@+id/t1"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.052" />
+
+  <Button
+      android:id="@+id/led"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="72dp"
+      android:background="@drawable/text_round"
+      android:text="Open"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.114"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/t3"
+      app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
